@@ -3,7 +3,7 @@ import datetime
 import random
 
 import time
-# pokazac czas na ekranoe
+# done
 # dac przycisk wyjdz podczas gry
 
 
