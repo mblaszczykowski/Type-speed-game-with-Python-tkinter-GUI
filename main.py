@@ -23,9 +23,9 @@ class App():
         self.startbutton = Button(self.root, text='Start', font=("SF Pro Display", 25), command=self.startapp)
         self.startbutton.place(x=230, y=200)
 
-        self.zlelabel = Button(self.root, text='Źle', fg='red')
+        self.zlelabel = Button(self.root, text='Bad', fg='red')
 
-        self.dobrzelabel = Button(self.root, text='Dobrze', fg='green')
+        self.dobrzelabel = Button(self.root, text='Good', fg='green')
 
         self.root.mainloop()
 
@@ -104,7 +104,7 @@ class App():
             #print(self.word)
             if slowko==self.word:
             # jesli tak:
-                print('DOBRZE')
+                print('good')
                 self.dobrzelabel.place(x=230,y=250)
                 self.zlelabel.place(x=6000,y=0)
 
@@ -116,7 +116,7 @@ class App():
                 self.entryy.delete(0, END)
 
             else:
-                print('Zle')
+                print('bad')
                 self.ilezle+=1
                 self.zlelabel.place(x=250,y=250)
                 self.dobrzelabel.place(x=6000,y=0)
@@ -134,12 +134,12 @@ class App():
             self.zlelabel.place(x=6000,y=6000)
             self.dobrzelabel.place(x=6000,y=6000)
 
-            print('KONIEC')
-            text2 = (str(self.ileslow) + " na minutę")
+            print('END')
+            text2 = (str(self.ileslow) + " per minute")
             text1 = (str(self.ileslow) + "WPM")
-            text3 = "Dobrze słów: " + str(self.iledobrze) + ", a źle: " + str(self.ilezle)
+            text3 = "Good words: " + str(self.iledobrze) + ", bad: " + str(self.ilezle)
 
-            self.koniec = Label(self.root, text='Koniec')
+            self.koniec = Label(self.root, text='The end')
             self.koniec.place(x=150,y=50)
 
             self.statystykalabel1 = Label(self.root, text=text1, font=('SF Pro Display', 20))
@@ -152,7 +152,7 @@ class App():
             self.statystykalabel3.place(x=150, y=220)
 
 
-            self.zagrajjeszczeraz = Button(self.root, text='Zagraj jeszcze raz', command=self.startapp)
+            self.zagrajjeszczeraz = Button(self.root, text='Play again', command=self.startapp)
             self.zagrajjeszczeraz.place(x=150, y=250)
 
 
