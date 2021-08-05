@@ -11,6 +11,7 @@
 
 ## General Information
 - This app allows you to check your WPM (words per minute) score and tell you how many words you typed correctly and how many not in 60 seconds time
+- App has the base of 218 most common English words, randomly generated to type them
 
 
 ## Technologies Used
@@ -19,7 +20,11 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/1.png)
+![Example screenshot](./img/2.png)
+![Example screenshot](./img/3.png)
+![Example screenshot](./img/4.png)
+![Example screenshot](./img/5.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
