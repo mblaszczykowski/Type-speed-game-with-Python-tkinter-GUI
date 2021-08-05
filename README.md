@@ -10,11 +10,7 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This app allows you to check your WPM (words per minute) score and tell you how many words you typed correctly and how many not in 60 seconds time
 
 
 ## Technologies Used
