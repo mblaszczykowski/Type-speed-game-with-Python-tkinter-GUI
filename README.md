@@ -20,11 +20,11 @@
 
 
 ## Screenshots
-![Example screenshot](./img/1.png)
-![Example screenshot](./img/2.png)
-![Example screenshot](./img/3.png)
-![Example screenshot](./img/4.png)
-![Example screenshot](./img/5.png)
+![Example screenshot](./img_for_readme/1.png)
+![Example screenshot](./img_for_readme/2.png)
+![Example screenshot](./img_for_readme/3.png)
+![Example screenshot](./img_for_readme/4.png)
+![Example screenshot](./img_for_readme/5.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
